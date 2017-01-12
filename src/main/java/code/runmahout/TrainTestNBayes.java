@@ -2,7 +2,6 @@
  * model -- uses Mahout software.
  */
 
-
 package code.runmahout;
 
 import java.io.File;
