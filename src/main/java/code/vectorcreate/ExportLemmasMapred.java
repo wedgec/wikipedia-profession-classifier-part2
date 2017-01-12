@@ -1,15 +1,10 @@
-/* Group:      Hadoop05 
- * Email:      wedgeco@brandeis.edu, tsikudis@brandeis.edu, dimos@brandeis.edu, 
- * Course:     COSI 129a
- * Assignment: PA3  
- * 
- * Program:    ExportLemmasMapred - This class runs a mapreduce 
- * 			   job. It takes as input a file of articleName, lemmaIndex<lemma, count>
- *   		   pairs, and outputs a file of lemma, documentFrequency pairs. The output not
- *             only gives us document frequencies for every lemma, but also defines
- *             our vocabulary. Note that we exclude from output all lemmas that have
- *             a document frequency of 1, on the assumption that these lemmas are
- *             mostly erroneous/junk lemmas.
+/* ExportLemmasMapred - This class runs a mapreduce 
+ * job. It takes as input a file of articleName, lemmaIndex<lemma, count>
+ * pairs, and outputs a file of lemma, documentFrequency pairs. The output not
+ * only gives us document frequencies for every lemma, but also defines
+ * our vocabulary. Note that we exclude from output all lemmas that have
+ * a document frequency of 1, on the assumption that these lemmas are
+ * mostly erroneous/junk lemmas.
  */
 
 package code.vectorcreate;

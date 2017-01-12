@@ -1,10 +1,6 @@
-/* Group:      Hadoop05 
- * Email:      wedgeco@brandeis.edu, tsikudis@brandeis.edu, dimos@brandeis.edu, 
- * Course:     COSI 129a
- * Assignment: PA3  
- * 
- * Program:    TrainTestNBayes - This class trains and tests naive bayes 
- * 			   model -- uses Mahout software.*/
+/* TrainTestNBayes - This class trains and tests naive bayes 
+ * model -- uses Mahout software.
+ */
 
 
 package code.runmahout;

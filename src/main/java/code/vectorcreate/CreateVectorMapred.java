@@ -1,18 +1,12 @@
-/* Group:      Hadoop05 
- * Email:      wedgeco@brandeis.edu, tsikudis@brandeis.edu, dimos@brandeis.edu, 
- * Course:     COSI 129a
- * Assignment: PA3  
- * 
- * Program:    VectorCreateMapred - Runs a mapreduce (no reducer needed) job to
- * 			   create Sequence File  of feature vectors associated
- *             with various professions. Vectors will be used to train
- *             and test a Naive Bayes model. This class is used to 
- *             build the vectors of both the training set and test set
- *             (training and test set vectors are built one run at a time,
- *             they are formatted differently, and they require different 
- *             command parameters). Original data comes from Wikipedia articles. 
+/* VectorCreateMapred - Runs a mapreduce (no reducer needed) job to
+ * create Sequence File  of feature vectors associated
+ * with various professions. Vectors will be used to train
+ * and test a Naive Bayes model. This class is used to 
+ * build the vectors of both the training set and test set
+ * (training and test set vectors are built one run at a time,
+ * they are formatted differently, and they require different 
+ * command parameters). Original data comes from Wikipedia articles. 
  */
-
 
 package code.vectorcreate;
 
