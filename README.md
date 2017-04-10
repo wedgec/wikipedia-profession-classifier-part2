@@ -1,5 +1,5 @@
 # wikipedia-profession-classifier-part2
-###Train and Evaluate Naive Bayesian Model for Profession Classification
+### Train and Evaluate Naive Bayesian Model for Profession Classification
 
 **School:** Brandeis University  
 **Course:** COSI 129a: Introduction to Big Data Analysis  
